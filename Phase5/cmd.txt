@@ -1,0 +1,5 @@
+./scc < ../examples/global.c > global.s 2> /dev/null
+gcc global.s ../examples/global-lib.c
+
+tar -czvf phase5.tar phase5
+./CHECKSUB.sh phase5.tar examples.tar

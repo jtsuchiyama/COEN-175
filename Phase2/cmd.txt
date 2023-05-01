@@ -1,0 +1,5 @@
+tar -czvf phase2.tar phase2
+./CHECKSUB.sh phase2.tar examples.tar
+
+
+./scc < ../phase2_examples/params.c | diff - ../phase2_examples/params.out

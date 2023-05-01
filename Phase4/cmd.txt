@@ -1,0 +1,11 @@
+tar -czvf phase4.tar phase4
+./CHECKSUB.sh phase4.tar examples.tar
+
+
+expr.c ... failed
+math.c ... ok
+stmt.c ... ok
+tree.c ... failed
+void.c ... ok
+
+./scc < ../examples/math.c | diff - ../examples/math.err

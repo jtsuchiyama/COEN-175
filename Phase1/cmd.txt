@@ -1,0 +1,5 @@
+tar -czvf phase1.tar phase1
+./CHECKSUB.sh phase1.tar examples.tar
+
+
+

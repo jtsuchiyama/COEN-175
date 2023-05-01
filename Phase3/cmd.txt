@@ -1,0 +1,11 @@
+tar -czvf phase3.tar phase3
+./CHECKSUB.sh phase3.tar examples.tar
+
+conflicting.c ... failed
+nesting.c ... ok
+redeclared.c ... ok
+undeclared.c ... ok
+void.c ... ok
+
+
+./scc < ../examples/conflicting.c | diff - ../examples/conflicting.err

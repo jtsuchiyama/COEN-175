@@ -1,0 +1,17 @@
+open scope
+x: 272
+x: 272
+a: 272[10]
+a: 272[5]
+x: 273 *
+g: 272()
+g: 272 *()
+f: 259 *()
+open scope
+z: 272
+f: 259 *(0)
+close scope
+f: 272
+h: 272
+h: 272()
+close scope

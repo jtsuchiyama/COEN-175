@@ -1,0 +1,19 @@
+./scc < ../examples/assignderef.c > assignderef.s
+gcc assignderef.s ../examples/assignderef-lib.c
+
+tar -czvf phase6.tar phase6
+./CHECKSUB.sh phase6.tar examples.tar
+
+
+calc.c ... ok
+fib.c ... ok
+global.c ... ok
+hello.c ... ok
+int.c ... ok
+matrix.c ... ok
+mixed.c ... ok
+qsort.c ... ok
+tree.c ... ok
+
+
+
